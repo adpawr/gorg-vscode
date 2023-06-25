@@ -1,0 +1,33 @@
+{
+	"name": "gorg",
+	"displayName": "Gorg Theme",
+	"description": "Gorg color theme",
+	"publisher": "adpawr",
+	"license": "SEE LICENSE IN LICENSE",
+	"version": "0.0.4",
+	"engines": {
+		"vscode": "^1.78.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:adpawr/gorg-vscode.git"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"gorg",
+		"theme",
+		"color-theme",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Gorg",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gorg-color-theme.json"
+			}
+		]
+	}
+}
